@@ -1,5 +1,4 @@
 #!/bin/sh
-set +x
 [[ -e /motd ]] \
 	&& cp /motd /etc/
 [[ -e /authorized_keys ]] \
